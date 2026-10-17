@@ -1,5 +1,4 @@
-import "@fontsource/mukta/600.css";
-import "@fontsource/mukta/800.css";
+import "@fontsource/khand/700.css";
 import type { Site } from "./lib";
 
 export const SITE: Site = {
@@ -18,49 +17,65 @@ export const SITE: Site = {
   "lon": 77.0778516,
   "hours": [
     [
-      5,
-      22
+      [
+        5,
+        22
+      ]
     ],
     [
-      6,
-      22
+      [
+        6,
+        22
+      ]
     ],
     [
-      6,
-      22
+      [
+        6,
+        22
+      ]
     ],
     [
-      6,
-      22
+      [
+        6,
+        22
+      ]
     ],
     [
-      6,
-      22
+      [
+        6,
+        22
+      ]
     ],
     [
-      6,
-      22
+      [
+        6,
+        22
+      ]
     ],
     [
-      6,
-      22
+      [
+        6,
+        22
+      ]
     ]
   ],
   "theme": {
-    "dark": false,
-    "bg": "#ffffff",
-    "bg2": "#f4f4f2",
-    "panel": "#ffffff",
-    "ink": "#111111",
-    "ink2": "#4b4b4b",
-    "ink3": "#858585",
-    "line": "#e4e4e0",
-    "onAccent": "#ffffff",
-    "display": "Mukta",
-    "weight": 800,
-    "upper": false,
-    "accent": "#b45309"
+    "dark": true,
+    "bg": "#0d0c06",
+    "bg2": "#15150f",
+    "panel": "#1c1b15",
+    "ink": "#f6f1e6",
+    "ink2": "#c3bfb5",
+    "ink3": "#86837a",
+    "line": "#282721",
+    "accent": "#ffcc1a",
+    "onAccent": "#292104",
+    "display": "Khand",
+    "weight": 700,
+    "upper": true
   },
+  "scene": "dumbbells",
+  "align": "left",
   "hero": {
     "title": [
       {
@@ -76,13 +91,7 @@ export const SITE: Site = {
       "en": "4.9 on Google from 415 reviews. Members write about trainers Rohit and Rahul, owner Mohan Yadav and a floor that is never too crowded.",
       "hi": "गूगल पर 415 रिव्यू से 4.9। मेंबर ट्रेनर रोहित और राहुल, मालिक मोहन यादव और ऐसे फ़्लोर के बारे में लिखते हैं जहां कभी ज़्यादा भीड़ नहीं होती।"
     },
-    "fallback": "/img/p1.jpg",
-    "slides": [
-      "/img/p1.jpg",
-      "/img/p6.jpg",
-      "/img/p7.jpg",
-      "/img/p4.jpg"
-    ]
+    "fallback": "/img/p1.jpg"
   },
   "marquee": [
     "Strength",
@@ -337,5 +346,40 @@ export const SITE: Site = {
       "en": "Hi My Fitness Pro Gym, I'd like to enquire:",
       "hi": "नमस्ते माय फ़िटनेस प्रो जिम, मुझे जानकारी चाहिए:"
     }
-  }
+  },
+  "story": [
+    {
+      "kicker": {
+        "en": "Coach",
+        "hi": "कोच"
+      },
+      "title": {
+        "en": "Pushed harder, every session.",
+        "hi": "हर सेशन में थोड़ा और ज़ोर।"
+      },
+      "quote": "He is a great fitness trainer who keep pushing us harder, motivated and ensures we are disciplined in our approach."
+    },
+    {
+      "kicker": {
+        "en": "Space",
+        "hi": "जगह"
+      },
+      "title": {
+        "en": "Never too crowded.",
+        "hi": "कभी ज़्यादा भीड़ नहीं।"
+      },
+      "quote": "This is a great gym—clean, well-equipped, and never too crowded."
+    },
+    {
+      "kicker": {
+        "en": "Fees",
+        "hi": "फ़ीस"
+      },
+      "title": {
+        "en": "Transparent pricing.",
+        "hi": "साफ़-साफ़ फ़ीस।"
+      },
+      "quote": "Best part: transparent pricing with no unnecessary charges."
+    }
+  ]
 };
